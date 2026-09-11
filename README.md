@@ -45,7 +45,7 @@ El sistema implementa patrones de diseño enterprise como **Repository Pattern**
 │                             [ Use Cases / Domain Layer ]                    │
 │                                           │                                 │
 │                                           ▼                                 │
-│                        [ Repositories / PostgreSQL Layer ]                  │
+│                        [ Repositories / MySQL/MariaDB Layer ]               │
 └─────────────────────────────────────────────────────────────────────────────┘
 ```
 
