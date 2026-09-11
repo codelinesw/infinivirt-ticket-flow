@@ -187,17 +187,3 @@ npm run lint
 # Ejecutar pruebas unitarias e integración con Jest
 npm test
 ```
-
----
-
-## 🧪 Pruebas Unitarias y de Integración
-
-El proyecto cuenta con una suite de pruebas configurada con **Jest** y **React Testing Library**:
-
-```bash
-# Ejecutar pruebas
-npm test
-
-# Ejecutar pruebas en modo watch
-npm test -- --watch
-```
