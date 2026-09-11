@@ -8,7 +8,7 @@ Este proyecto es una API RESTful robusta, escalable y segura desarrollada con **
 
 - **Entorno de Ejecución:** Node.js v22.19.0 LTS
 - **Lenguaje:** TypeScript / JavaScript (ESNext)
-- **Base de Datos & ORM:** PostgreSQL / MySQL + Prisma ORM
+- **Base de Datos & ORM:** MariaDB / MySQL + Prisma ORM
 - **Autenticación & Seguridad:** 
   - JWT (JSON Web Tokens)
   - Cookies Seguras (`HttpOnly`, `SameSite`, `Secure`)
@@ -228,7 +228,7 @@ PORT=3000
 NODE_ENV=development
 
 # Database Configuration (Prisma)
-DATABASE_URL="postgresql://usuario:password@localhost:5432/tu_db?schema=public"
+DATABASE_URL="mysql://root:@localhost:3306/infinivirt_ticket_flow_db_dev"
 
 # JWT Configuration
 JWT_SECRET=tu_clave_secreta_super_segura
